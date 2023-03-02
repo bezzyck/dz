@@ -1,0 +1,105 @@
+body {
+  margin: 0px;
+  color: #f8f8f8;
+}
+
+header {
+  background-color: lightblue;
+  padding: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav>.sub-nav>a {
+  margin-left: 12px;
+}
+
+main {
+  max-width: 1244px;
+  margin: 64px auto;
+}
+
+main>p {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-list>li {
+  padding: 24px;
+  border: 1px solid grey;
+  border-radius: 8px;
+
+  margin-top: 40px;
+}
+
+.main-list>li>p {
+  font-size: 14px;
+  line-height: 16px;
+  font-style: italic;
+}
+
+.links-list>li {
+  margin: 24px 0 0 0;
+}
+
+/* typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-weight: 400;
+}
+
+
+/* links */
+
+.links-list>li>a {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.main-link {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+a:hover {
+  color: blue;
+}
+
+
+/* image */
+
+.image-container {
+  width: 1000px;
+  margin: 40px auto 0px;
+}
+
+.image-container>img {
+  max-width: 1000px;
+  border-radius: 8px;
+  border: 2px solid lightblue;
+}

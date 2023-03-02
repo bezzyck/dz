@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Интересные ссылки</title>
+
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/form.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a class="main-link" href="../index.html">Главная</a>
+
+      <div class="sub-nav">
+        <a href="./links.html">Интересные сылки</a>
+        <a href="./contacts.html">Контакты</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Обратная связь</h1>
+    <p>
+      На случай, если оставиль вопросы.
+    </p>
+
+    <form action="#" onsubmit="alert('Типа отправилось)'); return false;">
+      <div class="control">
+        <label for="name">Как тебя зовут?</label>
+        <input type="text" name="name" id="name" placeholder="Имя" required>
+      </div>
+
+      <div class="control">
+        <label for="email">Почта для связи</label>
+        <input type="email" name="email" id="email" placeholder="Почта" required>
+      </div>
+
+      <div class="control">
+        <label for="description">Оставь пожелание</label>
+        <textarea name="description" id="description" placeholder="Пожелание"></textarea>
+      </div>
+
+      <button type="submit">В путь!</button>
+    </form>
+  </main>
+</body>
+
+</html>
